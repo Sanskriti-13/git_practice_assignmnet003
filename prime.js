@@ -7,5 +7,12 @@ for(let i=2;i<num;i++)
     }
 }
 if(factors!=0){
-    console.log("No")
+    console.log("Not a prime number")
 }
+
+else{
+    console.log("It is a prime number")
+}
+}
+checkPrime(13);
+
