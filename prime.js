@@ -1,12 +1,12 @@
 function checkPrime(num){
-let a=0
+let factors=0
 for(let i=2;i<num;i++)
 {
     if(num%i==0){
-        a++;
+        factors++;
     }
 }
-if(a!=0){
+if(factors!=0){
     console.log("No")
 }
 else{
