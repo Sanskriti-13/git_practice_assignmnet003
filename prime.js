@@ -9,8 +9,3 @@ for(let i=2;i<num;i++)
 if(a!=0){
     console.log("No")
 }
-else{
-    console.log("Yes")
-}
-}
-checkPrime(13);
